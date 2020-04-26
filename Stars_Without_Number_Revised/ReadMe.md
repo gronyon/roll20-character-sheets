@@ -42,6 +42,16 @@ on Github.
 
 ## Changelog
 
+### 2.4.7
+
+* Fix attribute boosts not being counted correctly for encumbrance and system strain.
+* Collapse attribute base and boosts fields into a single field in display mode.
+
+### 2.4.6
+
+* Add a box to keep track of attribute boosts.
+* Fix travel cost macro not calculating travel cost correctly.
+
 ### 2.4.5
 
 * Fixed an issue with the travel cost formula when the crew field was empty

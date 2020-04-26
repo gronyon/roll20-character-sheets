@@ -1,6 +1,70 @@
 # Das Schwarze Auge 5 - Tsa Edition
 
 ## Änderungen
+
+2020-04-19:
+- Bugfix: Korrektur Berechnung Seelenkraft
+- Bugfix: NSC-Bogen Fernkampf, Reichweite ist jetzt ein Freitext
+
+Features
+- Für jede Fertigkeit wurde ein zusätzlicher Würfel für Fertigkeitsspezialisierung hinzugefügt. Dieser würfelt mit +2 Fertigkeitswert.
+- bei Schadenswürfeln ist jetzt der Würfel selbst zwischen W2, W3, W4, W6 und W20) auswählbar, Default ist W6
+- Es wurde ein zusätzlicher Zustand hinzugefügt, dessen Name frei belegt werden kann. Entsprechend kann dieser bei den Talenten aktiviert bzw. deaktiviert werden.
+- Das Design der Status-Seite wurde auf DropDown-Menüs umgestellt. 
+- Die Seite Ausrüstung/Rüstungen würde überarbeitet. Ein DropDown-Menü zur Auswahl der Belastung sowie weitere Modifikatoren wurden hinzugefügt. Neu ist auch die Berechnung des Status Belastung aus der Rüstung sowie der Werte für INI und GS. Veränderungen an AT/PA/AW/VW werden im Kampfbogen berücksichtigt.
+- Ein Sonderfertigkeitsmodifier für z. B. Belastungsgewöhnung ist nicht vorhanden. Bitte verändert entsprechend die Belastung direkt an der Rüstung.
+
+
+2020-04-12:
+Features:
+- Der Bogen für NPCs und Monster ist endlich fertig! Unter Optionen kann man den NPC-Bogen aktivieren. Dadurch verändern sich der Grundwerte-Tab sowie der Kampftab. Unter Nahkampf und Fernkampf lassen sich jetzt direkt die Angriffe und Aktionen mit den jeweiligen AT/PA und TP-Würfeln per Add-Button hinzufügen. Die mit P gekennzeichneten Würfel stehen für den Passierschlag. Außerdem werden im Ausrüstungstab die BLöcke für Nah- und Fernkampfwaffen sowie Schilde und Rüstungen ausgeblendet. Die Modifikatoren aus Sonderfertigkeiten und Effekte funktionieren weiterhin. Falls ihr Fehler entdeckt, schickt mir bitte eine Nachricht.
+
+- Weitere Optionen wurden implementiert: So lassen sich die Kopfzeile teilweise oder ganz ausblenden. Im Grundwerte-Tab können jetzt die Blöcke für Astral- und Karmaenergie ausblenden.
+
+
+2020-03-28:
+- Bugfix: halbe Parade funktioniert wieder
+
+2020-01-12:
+
+Mit der Überarbeitung des Ausrüstung- und des Artefakte-Tabs ist erste Überarbeitung des Designs abgeschlossen. Die Elemente des Bogens sollten jetzt einheitlicher gestaltet und übersichtlicher angeordnet sein. Dabei habe ich noch einige Ideen für das Inventar sowie den Artefakte-Tab gesammelt, die neben dem NPC-Bogen als nächstes bearbeiten werden.
+
+Features:
+- Je Waffe / Rüstung lassen sich jetzt Textfelder für Anmerkungen/Vorteile/Nachteile ein- und ausblenden.
+- Waffen und Rüstungen haben jetzt Attribute für Bruchfaktor und Strukturpunkte erhalten
+
+Bugfixes:
+- Die Kampftechnik Zweihandhiebwaffen wird wieder angezeigt.
+- Bei Fernkampfwaffen wurde der Schadenbonus durch eine Leiteigenschaft entfernt.
+- Berechnung des Fernkampfmodifikators korrigiert.
+
+2020-01-05:
+
+Neue Features:
+- Es wurden jetzt Effekte hinzugefügt, die genauso funktionieren wie Sonderfertigkeiten. Hierüber kann man Auswirkungen von Zaubern, Liturgien oder Artefakten abbilden. Modifikatoren für Effekte werden an vielen Stellen getrennt von SFs angezeigt.
+- Sonderfertigkeiten sowie Effekte haben jetzt 4 statt 3 Modifikatoren
+- Magie und Götterwirken haben jetzt 5 statt 3 Beschreibungsfelder für Erweiterungen.
+- Die Textfelder für Beschreibungen, Anmerkungen oder Referenzen sind jetzt Textareas, die man aufziehen kann und deutlich mehr Text enthalten können.
+
+- Bei Sonderfertigkeiten und Effekten sind die Modifikatoren und Beschreibung jeweils ein- und ausblendbar. Dazu einfach auf das (+) oder (-) klicken.
+
+- Bei Magie und Götterwirken sind die Merkmale, Erweiterungen sowie Anmerkungen jeweils ein- und ausblendbar. Dazu einfach auf das (+) oder (-) klicken.
+
+
+Das Design wurde überarbeitet:
+- Rahmen und Abstände sollten jetzt einheitlicher gestaltet sein.
+- Der Tab Kampf sollte nun etwas übersichtlicher sein.
+- Es stehen weitere Farboptionen wie Harvena Blue und Farmelor Fire zur Verfügung.
+
+Bugfixes:
+- Der Parade Malus wird jetzt nur einmal berücksichtigt und nicht zweifach.
+- Die Fernkampfwaffen sind jetzt wieder per Radio Button auswählbar.
+
+
+2019-12-20:
+- Tab Sonderfertigkeiten: Änderung Beschreibung von Text zu einer Textarea, damit dort mehr Platz für Notizen ist. Außerdem können Beschreibung und Modifikatoren gezielt ein- und ausgeblendet werden. Außerdem wurde ein vierter Modifikator hinzugefügt
+- Tab Effekte: Es könne jetzt Effekte hinzugefügt werden. Im wesentlichen ist die Funktionalität ähnlich zu den Sonderfertigkeiten. Bei Talenten, Magie, Götterwirken und Kampfwerten werden statt des Sonderfertigkeitsmodifikators ein Effektmodifikator angegeben.
+
 2019-12-03:
 
 - Überarbeitung Design Status Tab
